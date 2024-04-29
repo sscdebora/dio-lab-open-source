@@ -52,6 +52,23 @@ Para concluir este Desafio de Projeto, basta enviar a **URL do seu "fork" de um 
 > [!NOTE]   
 > Por exemplo, a URL https://github.com/falvojr/dio-lab-open-source é o "**fork**" feito pelo usuário do GitHub "`falvojr`" para a contribuição no repositório `dio-lab-open-source`.
 
+### Bônus: Subindo um arquivo para o GitHub:
+[Instale o Git](https://msysgit.github.com)
+Defina o seu nome de usuário e endereço de e-mail: <br>
+git config --global user.name "John Doe" <br>
+git config --global user.email johndoe@example.com <br>
+Ir para o diretório do projeto e digitar:<br>
+git init <br>
+Adicionar o arquivo: <br>
+git add . <br>
+Commit das alterações com o comandi: <br>
+git commit -m "Mensagem do commit" <br>
+Vincular o repositorio local ao remoto no GitHub: <br>
+git remote add origin <URL_do_Repositorio> <br>
+Enviando as alterações para o repositorio: <br>
+git push -u origin main <br>
+
+
 ### Contribua com seu Profile README
 Para contribuir neste repositório, uma das formas é através da contribuição no diretório "**community**", criando um Profile README contendo informações sobre você que deseje compartilhar com a comunidade. <br>
 Para isso, você pode inserir: badges indicando suas habilidades; cards com suas estatísticas no GitHub e projetos que criou, colaborou ou que deseje que outras pessoas colaborem. Além disso, você pode inserir também links para seus desafios de projeto e artigos na plataforma da [Digital Innovation One](https://www.dio.me/). <br>
